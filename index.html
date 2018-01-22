@@ -12,9 +12,31 @@
     <div class="container">
       <div class="row">
         <form id="toDoList">
-          
-        </form>
+          <div class="form-group">
+            <div class="display-task">
+              <label for="taskName">Name of Task:</label>
+              <input type="text" class="form-control" id="taskName">
+            </div>
+          </div>
 
+          <div class="form-group">
+            <div class="display-date">
+              <label for="dueDate">Due Date:</label>
+              <input type="date" class="form-control" id="dueDate">
+            </div>
+          </div>
+
+          <button type="submit" name="button">Submit</button>
+        </form>
+        <div id="taskList">
+          <ul>
+          </ul>
+        </div>
+        <!-- <div id="datesList">
+          <ul>
+
+          </ul>
+        </div> -->
       </div>
 
     </div>
